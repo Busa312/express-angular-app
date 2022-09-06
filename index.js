@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 server.use(middlewares);
 server.use(router);
-
+server.listen(port);
 
 
 const express = require("express");
@@ -32,6 +32,5 @@ app.all('*', function (req, res) {
 // ---- START UP THE NODE SERVER  ----
 app.listen(_port, function () {
     console.log("Node Express server for " + app.name + " listening on http://localhost:" + _port);
-    server.listen(port);
 });
 
