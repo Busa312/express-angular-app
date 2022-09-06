@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "admin@admin",
+      "password": "adminadmin",
+      "todos": [],
+      "notes": [],
+      "uid": "3122432312",
+      "username": "admin"
+    },
+    {
+      "username": "busa312",
+      "email": "busa@busa",
+      "password": "busabusa",
+      "todos": [],
+      "notes": [],
+      "id": "1662456132719"
+    }
+  ]
+}
