@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+
 
 const express = require("express");
 const compression = require("compression");
@@ -33,3 +33,5 @@ app.all('*', function (req, res) {
 app.listen(_port, function () {
     console.log("Node Express server for " + app.name + " listening on http://localhost:" + _port);
 });
+
+server.listen(port);
